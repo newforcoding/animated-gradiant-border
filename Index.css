@@ -1,0 +1,28 @@
+body {
+	height: 100vh;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	background: rgb(201, 174, 219);
+}
+/* .module {
+	max-width: 350px;
+	padding: 1rem;
+	color: rgb(28, 2, 53);
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+} */
+.border-wrap {
+	max-width: 250px;
+	padding: 1rem;
+	position: relative;
+	background: linear-gradient(to right, red, purple);
+	padding: 3px;
+}
+
+.module {
+	background: #222;
+	color: white;
+	padding: 2rem;
+}
